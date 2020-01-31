@@ -9,6 +9,10 @@ checkifremovable.sh - PoC to check (via lsblk) if a drive specified (/dev/sdb, f
 
 concat_mts.sh - script that concatenates all sequential MTS files in a directory into a single m2ts file.  (This was used because of a camera that segmented video due to filesize limits)
 
+convert_all.sh - converts all .PRN files (files designed to be sent to an impact printer) and formats them into PDF files (portrait)
+
+convert_all_landscape.sh - same as convert_all.sh, but is designed for PRN files intended to be printed "landscape."
+
 delete_black.sh - a script that looks at jpgs in the current directory and tries to identify if they have a black background (in this case, what imagemagick identifies as "Gray" - don't ask me why) and puts them in the trash.
 
 open-url.sh - A script to help open .url files from Windows in a Linux web browser (to be added in the right-click context menu, for example)
