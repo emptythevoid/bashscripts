@@ -15,3 +15,4 @@ openwithcustomcommand - This is intended to be placed inside a right-click conte
 
 repairpdf.sh - a script I wrote that was used to repair a large collection of PDFs that wouldn't open in most PDF viewers (file type was "data" rather than "PDF version 1.4" or whatever).  It's a stupid fix, but it works.
 
+re-encode_video_piwigo.sh - Automatically re-encode all videos in current directory using handbrake to be formatted for easy playback in piwigo, per their documentation.
