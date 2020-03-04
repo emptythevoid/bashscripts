@@ -15,6 +15,8 @@ convert_all_landscape.sh - same as convert_all.sh, but is designed for PRN files
 
 delete_black.sh - a script that looks at jpgs in the current directory and tries to identify if they have a black background (in this case, what imagemagick identifies as "Gray" - don't ask me why) and puts them in the trash.
 
+evening_time.sh - I found that after I had a baby, after he went to sleep for the night, I needed to unwind at my computer, and I found I kept entering in these commands.
+
 open-url.sh - A script to help open .url files from Windows in a Linux web browser (to be added in the right-click context menu, for example)
 
 openwithcustomcommand - This is intended to be placed inside a right-click context menu.  It accepts a file and then a dialog prompt appears asking to enter in a custom command to open the file with.  I believe I created this as a quick way to restore this behavior to the open file options in Ubuntu.
