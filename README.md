@@ -17,7 +17,7 @@ delete_black.sh - a script that looks at jpgs in the current directory and tries
 
 evening_time.sh - I found that after I had a baby, after he went to sleep for the night, I needed to unwind at my computer, and I found I kept entering in these commands.
 
-fapplus.sh - A stupid simple extracter for "getuser" pages on fapplus.  Extracts all content links from the page and has youtube-dl download them.
+fapplus.sh - A stupid simple extractor for "getuser" pages on fapplus.  Extracts all content links from the page and has youtube-dl download them.
 
 open-url.sh - A script to help open .url files from Windows in a Linux web browser (to be added in the right-click context menu, for example)
 
