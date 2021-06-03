@@ -19,7 +19,7 @@ evening_time.sh - I found that after I had a baby, after he went to sleep for th
 
 fapplus.sh - A stupid simple extractor for "getuser" pages on fap.plus.  Extracts all content links from the page and has youtube-dl download them.
 
-ldx-extractor - An overly complicated collection of bash scripts that allows capture of the output from an Cholestech LDX machine to a text file (and look flashy doing it).  Requires a serial-to-USB cable, figlet, lolcat, entr.  Intended to be used in a mass event, it allows the user to enter a patient name before each capture, so the output file shows who owns which reading.
+ldx-extractor - An overly complicated collection of bash scripts that allows capture of the output from an Cholestech LDX machine to a text file (and look flashy doing it).  Requires a serial-to-USB cable, figlet, lolcat, entr.  Intended to be used in a mass event, it allows the user to enter a patient name before each capture, so the output file shows who owns which reading. Place all files in the same directory and run sudo start-v2.sh
 
 open-url.sh - A script to help open .url files from Windows in a Linux web browser (to be added in the right-click context menu, for example)
 
