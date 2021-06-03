@@ -12,7 +12,7 @@
 lynx -dump -listonly $1 | grep fap.plus/content | cut -d '.' -f 2-10 > downloadlinks.txt
 
 # show how many download links found
-echo "Number of download links discovered: $(wc -l downloadlinks.txt | cut -d ' ' -f 1"
+echo "Number of download links discovered: $(wc -l downloadlinks.txt | cut -d ' ' -f 1)"
 
 # feed the links to youtube-dl as a list and begin downloading
 youtube-dl -a downloadlinks.txt
