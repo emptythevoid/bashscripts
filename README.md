@@ -29,6 +29,6 @@ repairpdf.sh - a script I wrote that was used to repair a large collection of PD
 
 re-encode_video_piwigo.sh - Automatically re-encode all videos in current directory using handbrake to be formatted for easy playback in piwigo, per their documentation.
 
-stufferdb.sh - A basic downloader for pages on stufferdb.com, using curl, linx and wget.  It's only been tested on 'models' pages.  If the model page has subpages (for videos/youtube/etc) or if there are multiple pages, you will have to re-run this script for each page separately.
+stufferdb.sh - A basic downloader for pages on stufferdb.com, using curl, linx and wget.  It's only been tested on 'models' pages.  If the model page has subpages (for videos/youtube/etc) or if there are multiple pages, you will have to re-run this script for each page separately.  This could likely be re-worked to perform on other Piwigo-based sites.
 
 switch-screens.sh - This causes the mouse to move from one screen to another instantly.  This was intended to be used with EasyStroke to map to a button on my trackball to instantly switch mouse focus from one screen to the other.
