@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # A dirt simple downloader for stuffer.db pages
-# Uses lynx to extract all the video links from a fap.plus getuser page
+# Uses lynx to extract all the video links from a stufferdb getuser page
 # and youtube-dl to download them into the current directory
 
 # This has only been tested on "model" pages
