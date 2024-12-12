@@ -26,3 +26,5 @@ repairpdf.sh - a script I wrote that was used to repair a large collection of PD
 re-encode_video_piwigo.sh - Automatically re-encode all videos in current directory using handbrake to be formatted for easy playback in piwigo, per their documentation.
 
 switch-screens.sh - This causes the mouse to move from one screen to another instantly.  This was intended to be used with EasyStroke to map to a button on my trackball to instantly switch mouse focus from one screen to the other.
+
+check_feld_names.sh - uses qPDF to attempt to detect duplicate form field names in PDF files.  This is used to help avoid form field name collisions that might make erroneous input.  (note: radio buttons naturally operate with duplicate field names, so these will create false positives)
